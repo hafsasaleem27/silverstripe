@@ -1,7 +1,6 @@
 <?php
 
 namespace {
-
     use SilverStripe\CMS\Model\SiteTree;
 
     class Page extends SiteTree
@@ -11,3 +10,4 @@ namespace {
         private static $has_one = [];
     }
 }
+
